@@ -4,15 +4,34 @@ aside.losvideos{
 	width:75%;
 	padding:10px;
 }
+nav{
+	background-color:black;
+	margin:0;
+}
 ul{
 	list-style-type:none;
 	margin-bottom: 10px;
 }
 li{
-	width:33%;
-	float:left;
 	text-align:center;
 	margin-bottom:10px;
+	list-style-type:none;
+}
+a{
+	text-decoration:none;
+	color: white;
+	font-family: monospace;
+}
+.menu{	
+	width:33%;
+	height: 100px;
+	display:inline-block;
+}
+.menu:hover{
+	background-color: grey;
+}
+#imagen{
+	text-align:center;
 }
 section{
 	width:70%;
@@ -25,8 +44,4 @@ section>video.losvideos{
 aside{
 	width:30%;
 	float:left;
-}
-a{
-	text-decoration:none;
-	color:black;
 }

@@ -1,4 +1,4 @@
 function pasarFoto(via){
-window.document.getElementById("espazoFoto").src=via;
+	window.document.getElementById("video1").src = via;
 }
 	
