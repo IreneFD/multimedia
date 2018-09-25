@@ -1,0 +1,32 @@
+@charset "UTF-8";
+aside.losvideos{
+	float:left;
+	width:75%;
+	padding:10px;
+}
+ul{
+	list-style-type:none;
+	margin-bottom: 10px;
+}
+li{
+	width:33%;
+	float:left;
+	text-align:center;
+	margin-bottom:10px;
+}
+section{
+	width:70%;
+	float:left;
+}
+section>video.losvideos{
+	float:left;
+	width:100%;
+}
+aside{
+	width:30%;
+	float:left;
+}
+a{
+	text-decoration:none;
+	color:black;
+}
